@@ -517,7 +517,7 @@ article .text {
     text-align: center;
     word-wrap: break-word
 }
-article .text p, article .text pre, article .text img, article .text ol, article .text ul, article .text table, article .text dl, article .text hr, article .text blockquote {
+article .text p, article .text img, article .text ol, article .text ul, article .text table, article .text dl, article .text hr, article .text blockquote {
     margin-bottom: 30px;
     text-align: left
 }
@@ -557,23 +557,6 @@ article .text sup {
 article .text small {
     font-size: 13px;
     color: #909396
-}
-article .text pre {
-    padding: 14px 20px;
-    font-size: 16px;
-    max-width: 100%;
-    overflow-x: auto;
-    line-height: 1.4em;
-    font-family: "Courier New", "Courier", monospace;
-    -webkit-font-smoothing: subpixel-antialiased;
-    border: 1px solid #ededee;
-    background-color: #f9f9fa;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-radius: 6px;
-    word-wrap: normal
 }
 
 article .text h1, article .text h2, article .text h3, article .text h4, article .text h5, article .text h6 {
@@ -1550,9 +1533,7 @@ body.touch.user article .readmore {
     article header {
         margin-bottom: 30px
     }
-    article .text pre {
-        padding: 8px 10px
-    }
+
     article .text .footnotes ul, article .text .footnotes ol {
         padding: 0 10px
     }
@@ -1604,7 +1585,7 @@ body.touch.user article .readmore {
     body.user article .text {
         padding-bottom: 40px
     }
-    body.user article .text ul, body.user article .text ol, body.user article .text pre, body.user article .text img, body.user article .text table, body.user article .text dl, body.user article .text hr, body.user article .text>div {
+    body.user article .text ul, body.user article .text ol, body.user article .text img, body.user article .text table, body.user article .text dl, body.user article .text hr, body.user article .text>div {
         margin-bottom: 20px
     }
     body.user article .text iframe {
