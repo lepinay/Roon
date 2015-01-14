@@ -576,28 +576,6 @@ article .text pre {
     word-wrap: normal
 }
 
-article .text code {
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-    max-width: 100%;
-    overflow-x: auto;
-    padding: 0 5px;
-    font-size: 16px;
-    font-family: "Courier New", "Courier", monospace;
-    -webkit-font-smoothing: subpixel-antialiased;
-    border: 1px solid #ededee;
-    background-color: #f9f9fa;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-radius: 6px;
-    word-wrap: normal
-}
 article .text h1, article .text h2, article .text h3, article .text h4, article .text h5, article .text h6 {
     font-weight: bold;
     margin: 40px 0 8px 0;
