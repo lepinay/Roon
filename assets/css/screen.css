@@ -575,11 +575,7 @@ article .text pre {
     border-radius: 6px;
     word-wrap: normal
 }
-article .text pre code {
-    padding: 0;
-    border: none;
-    background-color: transparent
-}
+
 article .text code {
     display: -moz-inline-stack;
     display: inline-block;
